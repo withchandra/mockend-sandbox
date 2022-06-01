@@ -1,14 +1,7 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+	"Product": {
+		"name" : {"loremWord" : {}},
+		"file_prospectus" : {"regexp" : "[A-Z][a-z]{10,15}.pdf"},
+		"file_factsheet" : {"regexp" : "[A-Z][a-z]{10,15}.pdf"}
+	}
 }
