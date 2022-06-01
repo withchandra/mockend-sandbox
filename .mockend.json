@@ -3,10 +3,6 @@
 		"name" : {"loremWord" : {}},
 		"uuid" : {"int" : {"min":9, "max":10}},
 		"file_prospectus" : {"regexp" : "[A-Z][a-z]{10,12}\\.pdf"},
-		"file_factsheets" : {"regexp" : "[A-Z][a-z]{10,15}\\.pdf"},
-		"files" : {
-			"filename" : {"int": {}},
-			"filepath" : {"string": {}}
-		}
+		"file_factsheets" : {"regexp" : "[A-Z][a-z]{10,15}\\.pdf"}
 	}
 }
