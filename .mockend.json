@@ -1,7 +1,7 @@
 {
 	"Product": {
 		"name" : {"loremWord" : {}},
-		"uuid" : {"uuid" : {}},
+		"theid" : {"uuid" : {}},
 		"file_prospectus" : {"regexp" : "[A-Z][a-z]{10,12}\\.pdf"},
 		"file_factsheets" : {"regexp" : "[A-Z][a-z]{10,15}\\.pdf"}
 	}
