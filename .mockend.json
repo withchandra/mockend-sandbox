@@ -1,10 +1,10 @@
 {
 	"Product": {
 		"name" : {"loremWord" : {}},
-		"file_prospectus" : {"regexp" : "[A-Z][a-z]{10,12}\.pdf"},
+		"file_prospectus" : {"regexp" : "[A-Z][a-z]{10,12}/.pdf"},
 		"file_factsheets" : {
-			"01" : {"regexp" : "[A-Z][a-z]{10,15}\.pdf"},
-			"02" : {"regexp" : "[A-Z][a-z]{10,15}\.pdf"}
+			"01" : {"regexp" : "[A-Z][a-z]{10,15}/.pdf"},
+			"02" : {"regexp" : "[A-Z][a-z]{10,15}/.pdf"}
 		}
 	}
 }
